@@ -1,0 +1,139 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#exercise-selector {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 500px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#exercise-info {
+  background-color: #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#exercise-info h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+#exercise-output {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+}
+
+.result-label {
+  font-weight: bold;
+  color: #17a2b8;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.result-value {
+  font-size: 1.2rem;
+  color: #495057;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+#exercise-inputs {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.result-label {
+  font-weight: bold;
+  color: #17a2b8;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.result-value {
+  font-size: 1.1rem;
+  color: #495057;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: #dc3545;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.success {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

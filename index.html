@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algorithm Exercises</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="exo1/binarySearch.js" defer></script>
+    <script src="exo2/graphTraversal.js" defer></script>
+    <script src="exo3/knapsackProblem.js" defer></script>
+    <script src="exo4/mergeIntervals.js" defer></script>
+    <script src="exo5/maximumSubarraySum.js" defer></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <h1>Search Based Sofware Engineering</h1>
+    <div id="exercise-selector">
+      <label for="exercise">Choose an exercise:</label>
+      <select id="exercise">
+        <option value="binarySearch">Binary Search</option>
+        <option value="graphTraversal">Graph Traversal (BFS & DFS)</option>
+        <option value="knapsack">Knapsack Problem</option>
+        <option value="mergeIntervals">Merge Intervals</option>
+        <option value="kadane">
+          Maximum Subarray Sum (Kadane's Algorithm)
+        </option>
+      </select>
+      <button id="choose-exercise">Start Exercise</button>
+    </div>
+
+    <div id="exercise-inputs"></div>
+
+    <div id="exercise-info"></div>
+    <div id="exercise-output"></div>
+  </body>
+</html>
