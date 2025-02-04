@@ -16,7 +16,8 @@ document
           element in a sorted array. It works by repeatedly dividing
           the array into two halves.
           <br />
-          <strong>Time complexity</strong>: O(log n)</p>
+          <strong>Time complexity</strong>:O(log<sub>2</sub>
+(n))</p>
               <p><strong>Instructions:</strong> Enter a sorted list and a target value. The algorithm will return the index of the target if found, otherwise -1.</p>
               `;
         inputs = `
